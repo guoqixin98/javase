@@ -7,3 +7,7 @@
     （2）一条语句，可以定义多个变量，中间用逗号分隔
       int a=1,b=2,c=3;
     (3)变量在使用之前，必须完成赋值。
+2.键盘输入
+        Scanner sc= new Scanner(System.in);
+        int age=sc.nextInt();
+        System.out.println(age);
